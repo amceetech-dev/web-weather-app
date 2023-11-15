@@ -22,14 +22,14 @@ The Web Weather App provides a convenient way for users to retrieve the current 
 - HTML
 - CSS
 - JavaScript
-- Weather API (Openweathermap)
+- Weather API (openweathermap)
 
 
 ## Screenshots
-![Screenshot 1](insert_screenshot1_link_here)
+![weather_app](https://github.com/prince-nwofor/web-weather-app/assets/89349779/5fd88f5b-654c-48f3-bf53-d4753f19947f)
 
 ## How to Use
-1. Clone the repository: `git clone https://github.com/your-username/web-weather-app.git`
+1. Clone the repository: `git clone https://github.com/prince-nwofor/web-weather-app.git`
 2. Open `index.html` in your web browser.
 3. Enter the city name in the search bar and click the "Search" button to view the current weather.
 
