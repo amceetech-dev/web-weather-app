@@ -8,6 +8,7 @@ const wind = document.querySelector(".wind")
 const image = document.querySelector(".weather-icon")
 const showValues = document.querySelector(".weather")
 const errMsg = document.querySelector(".error")
+const myForm = document.querySelector(".myForm")
 
 
 // Function that gets the weather data
@@ -48,7 +49,8 @@ const checkingWeather = async (cityName) => {
 }
 
 // calling the checkingWeather function Using a button click
-btn.addEventListener('click', async function () {
+myForm.addEventListener('submit', async function () {
+
     const cityName = input.value;
     checkingWeather(cityName)
 
